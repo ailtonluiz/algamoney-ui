@@ -5,6 +5,24 @@ body {
   color: #404C51;
 }
 
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+a.p-button:hover,
+a.p-button:focus {
+  text-decoration: none;
+}
+
+form .p-button {
+  margin-right: .25em;
+}
+
 label {
   font-weight: bold;
 }
@@ -16,31 +34,33 @@ label {
   }
 }
 
-.col-valor-header {
-  width: 120px;
-}
+@media (min-width: 40em) {
+  .col-valor-header {
+    width: 120px;
+  }
 
-.col-valor {
-  text-align: right !important;
-}
+  .col-valor {
+    text-align: right !important;
+  }
 
-.col-data-header {
-  width: 120px;
-}
+  .col-data-header {
+    width: 120px;
+  }
 
-.col-data {
-  text-align: center !important;
-}
+  .col-data {
+    text-align: center !important;
+  }
 
-.col-acoes-header {
-  width: 115px;
-}
+  .col-acoes-header {
+    width: 115px;
+  }
 
-.col-acoes {
-  width: 115px;
-  text-align: center !important;
-}
+  .col-acoes {
+    width: 115px;
+    text-align: center !important;
+  }
 
-.col-acoes .p-button {
-  margin: 1px;
+  .col-acoes .p-button {
+    margin: 1px;
+  }
 }
