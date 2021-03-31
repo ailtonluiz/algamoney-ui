@@ -19,6 +19,11 @@ a.p-button:focus {
   text-decoration: none;
 }
 
+a.p-button:hover {
+  background-color: #005b9f;
+  color: white!important;
+}
+
 form .p-button {
   margin-right: .25em;
 }
@@ -61,6 +66,20 @@ label {
   }
 
   .col-acoes .p-button {
-    margin: 1px;
+    margin-right: 1px;
   }
+}
+
+.label-spaced {
+  margin: 5px;
+}
+
+.cadastro-acoes .ui-button {
+  margin-right: 5px;
+}
+
+.relatorio-filtro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
